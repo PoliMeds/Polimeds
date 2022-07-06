@@ -16,3 +16,5 @@ Here are some ideas to get you started:
 -->
 
 Repositório para o armazenamento dos códigos utilizados durante o projeto Polimeds!
+  - Site
+  - Telegram ChatBot
