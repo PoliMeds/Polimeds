@@ -1,0 +1,308 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+html, body { 
+    background-color: whitesmoke;
+}
+
+/* header style */
+
+header {
+    background-color: blue;
+    display: flex;
+    position: fixed;
+    top: 0;
+    height: 10vh;
+    width: 100%;
+    align-items: center;
+    z-index: 1;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.botoes-header {
+    background-color: blue;
+    color: black;
+    font-size: 2vh;
+    height: 6vh;
+    width: 8vh;
+}
+
+.botoes-header:hover {
+    background-color: darkblue;
+    color: white;
+}
+
+.prosseguir {
+    position: absolute;
+    right: 0;
+}
+
+#comprar {
+    margin-right: 100px;
+}
+
+#sair {
+    margin-right: 100px;
+}
+
+#menu {
+    width: 6vh;
+    font-size: 3.5vh;
+}
+
+#texto-titulo {
+    font-size: 3.5vh;
+    width: 50vw;
+}
+
+/* end of header style */
+
+/* main style */
+
+#main {
+    display: flex;
+    margin-top: 10vh;
+}
+
+/* sidebar style */
+
+#sidebar {
+    background-color: darkblue;
+    text-align: center;
+}
+
+.lista a:link, a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+.lista a:hover {
+    color: gainsboro;
+    text-decoration: none;
+}
+
+.lista-titulo {
+    color: aqua;
+    margin: 0px 5px 5px 5px;
+    padding-top: 15px;
+}
+
+.lista {
+    padding-left: 10px;
+    margin: 10px;
+    text-align: left;
+}
+
+li {
+    margin: 5px;
+}
+
+#sidebar-content {
+    position: sticky;
+    top: 10vh;
+}
+
+/* end of sidebar style*/
+
+/* content style */
+
+/* used for links in sumario din't move the page too up, so, now, the head doesn't cover the section title */
+.section-span {
+    position: absolute;
+    transform: translateY(-10vh);
+}
+
+section {
+    padding: 20px;
+    text-align: justify;
+}
+
+section > h2 {
+    padding-left: 30px;
+}
+
+section > p {
+    padding-top: 10px;
+}
+
+#equipe-images {
+    padding-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.integrante {
+    margin: 20px;
+    text-align: center;
+}
+
+
+/* end of content style */
+
+/* end of main style */
+
+/* footer style */
+
+footer {
+    background-color: blue;
+}
+
+/* end of footer style */
+
+
+/* login page specific style */
+
+#login {
+    margin: 50px;
+    padding: 50px;
+}
+
+#login > * {
+    margin: auto;
+}
+
+/* end of login page specific style */
+
+/* span error and info style */
+
+.info {
+    position: relative;
+    top: -40px;
+    float: right;
+}
+
+.error {
+    font-size: smaller;
+    color: red;
+}
+
+/* span error and info style */
+
+/* cadastro page specific style */
+
+
+.cadastro {
+    margin: 50px;
+}
+
+.get-dados-conteiner {
+    padding: 20px 50px;
+}
+
+.get-dados-conteiner > * {
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.get-dados {
+    margin: 50px;
+    padding: 30px;
+}
+
+legend {
+    font-size: large;
+}
+
+.form-titulo {
+    margin-left: 0;
+    font-weight: bold;
+    font-size:x-large;
+}
+
+.change-pagebutton {
+    height: 6vh;
+    background-color: whitesmoke;
+    color: rgb(225, 154, 46);
+}
+
+.change-pagebutton:hover {
+    color: gray;
+}
+
+.enviar-button {
+    font-size: medium;
+    height: 6vh;
+    width: 8vh;
+    border-style: solid;
+    border-width: 2px;
+    color: green;
+    background-color: whitesmoke;
+}
+
+.enviar-button:hover {
+    background-color: green;
+    border: none;
+    color: white;
+}
+
+.submit-buttons {
+    margin-left: 60px;
+}
+
+/* end of cadastro page specific style */
+
+
+/* Edit dados style */
+
+#edit-content{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#edit-content > form {
+    margin: 25px;
+}
+
+
+
+/* end of edit dados style */
+
+#remedios-dia {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 30px;
+}
+
+#remedios-dia > * {
+    margin: 20px;
+}
+
+#historico {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 30px;
+}
+
+#historico > * {
+    margin: 20px;
+}
+
+.consumo-titulo {
+    margin: 20px;
+}
+
+table, th, td {
+    border: 2px solid black;
+    padding: 2px;
+    text-align: center;
+}
+
+#trash {
+    width: 20px;
+}
+
+#certo {
+    width: 20px;
+}
